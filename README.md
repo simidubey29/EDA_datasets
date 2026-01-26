@@ -1,4 +1,42 @@
-# 🎬 Netflix Movies & TV Shows – Exploratory Data Analysis (EDA)
+# 🚢 Titanic EDA Project
+This project performs **Exploratory Data Analysis (EDA)** on the **Titanic dataset** using Python to understand survival patterns and key influencing factors.
+
+## Dataset
+* **File:** `titanic.csv`
+* **Rows:** 418 | **Columns:** 11
+* Key features: `Survived`, `Pclass`, `Sex`, `Age`, `Fare`, `SibSp`, `Parch`
+
+---
+
+## Tools Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+---
+
+## 🔍 Analysis Performed
+* Data inspection & missing value check
+* Descriptive statistics
+* Univariate & bivariate analysis
+* Correlation heatmap
+* Feature analysis (Age group, Family size, Fare group)
+
+---
+
+## 📊 Key Insights
+* Most passengers did not survive
+* Females survived more than males
+* Higher class & higher fare → higher survival
+* Small families had better survival chances
+
+## 🎯 Conclusion
+Survival on the Titanic was influenced by **gender, class, fare, age, and family size**. The dataset is suitable for **classification and ML modeling**.
+
+---
+
+
+## 🎬 Netflix Movies & TV Shows – Exploratory Data Analysis (EDA)
 
 ## 📌 Project Title
 
@@ -9,9 +47,7 @@
 ---
 
 ## 📖 Project Description
-
 This project performs **Exploratory Data Analysis (EDA)** on the popular **Netflix Movies and TV Shows dataset**. The goal is to analyze Netflix content based on various attributes such as:
-
 * Type of content (Movies vs TV Shows)
 * Release year
 * Ratings
@@ -23,7 +59,6 @@ EDA helps in understanding the structure of the dataset, identifying missing val
 ---
 
 ## 🎯 Objectives
-
 * Understand the distribution of Movies and TV Shows on Netflix
 * Clean the dataset by handling missing values
 * Perform basic statistical analysis
@@ -37,7 +72,6 @@ EDA helps in understanding the structure of the dataset, identifying missing val
 * **Dataset Name:** Netflix Movies and TV Shows
 * **Source:** Public Netflix dataset (CSV format)
 * **Key Columns Used:**
-
   * `type`
   * `release_year`
   * `rating`
@@ -56,23 +90,12 @@ EDA helps in understanding the structure of the dataset, identifying missing val
 ---
 
 ## 🔍 Steps Performed (EDA Workflow)
-
 1. Imported required Python libraries
 2. Loaded the Netflix dataset using Pandas
 3. Removed rows with missing values in important columns
 4. Analyzed content type distribution (Movies vs TV Shows)
 5. Created bar charts for visualization
 6. Saved generated plots as image files
-
----
-
-## 📈 Sample Visualization
-
-* **Movies vs TV Shows Distribution**
-
-  * Bar chart comparing the number of Movies and TV Shows available on Netflix
-
-(Generated image file: `movies_vs_tvshows.png`)
 
 ---
 
@@ -84,7 +107,6 @@ EDA helps in understanding the structure of the dataset, identifying missing val
 
 
 ## 📌 Conclusion
-
 This EDA project provides a clear overview of Netflix content distribution and demonstrates how exploratory analysis helps in understanding data before applying advanced techniques like machine learning.
 
 ---
